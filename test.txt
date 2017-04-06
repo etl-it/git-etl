@@ -1,6 +1,0 @@
-Texto de prueba
-Hello merging
-echo felipe
-echo felipe
-echo felipe
-echo felipe
