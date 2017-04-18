@@ -1,6 +1,7 @@
 # README ETL
 
 *Este manual constituye una guía de la metodología de trabajo a seguir dentro de la Organización ETL-IT, perteneciente al departamento de Telemática de la Universidad Carlos III de Madrid.*
+*Si desea más información o tiene alguna duda tiene a su disposición los sitios web: [Guru IT (Apertura de incidencias)](guru.it.uc3m.es) y [Wiki ETL](etl.it.uc3m.es)*
 
 ## Git básico
 
