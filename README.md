@@ -4,12 +4,6 @@
 *Si desea más información o tiene alguna duda tiene a su disposición los sitios web: [Guru IT (Apertura de incidencias)](guru.it.uc3m.es) y [Wiki ETL](etl.it.uc3m.es)*
 
 
-## Git básico
-
-### Más en profundidad
-[ProGit ePub version, 2nd Edition](https://github.com/etl-it/git-etl/blob/master/progit-es.1091.epub?raw=true)
-
-
 ## Branching
 Todos los usuarios de la organización seguirán el siguiente esquema de branching:
 
@@ -44,11 +38,30 @@ La rama de documentación/integración tiene como fin unificar características 
 Debe estar bien documentado para poder pasar luego a la rama testing. Debe documentarse para que lo entienda cualquiera que no tenga que ver con el código o el repositorio.
 
 ### Testing
-
+La rama de testing es autoexplicativa, se utilizará para depurar el código y probarlo en clientes (o donde sea menester). De aquí el código debería salir completo y funcionando, en su versión estable, para poder hacer pull de aquí al master.
 
 ### Pull requests
 Para poder realizar un pull a la rama master desde la rama testing es **necesario que al menos otro usuario dé el visto bueno**, excepto casos concretos donde se indique lo contrario.
 
+### IMPORTANTE
+**Se recuerda que las ramas de integración y testing no deben eliminarse nunca, solo se pueden eliminar las ramas dev una vez se ha terminado con ellas**
 
-## Permisos dentro de la organización
+
+## Permisos
+### Organización
 Existen tres tipos de usuarios: member, billing managers y owner. Los billing managers por el momento vamos a descartarlos ya que trabajamos con la versión gratuita de GitHub.
+Por defecto a los usuarios nuevos se les etiqueta como members, [aquí un enlace sobre permisos según el rol](https://help.github.com/articles/permission-levels-for-an-organization/).
+
+### Repositorio
+En cuanto a los permisos en cada repositorio concreto tenemos tres básicos: read, write y admin. Hay que tener en cuenta que los usuarios que figuren en la organización como owner tendrán permisos especiales también dentro de los repositorios.
+Los permisos más interesantes son los de write y admin para colaboradores del repositorio, [aquí pueden verse los permisos que conlleva cada rol dentro del repositorio](https://help.github.com/articles/repository-permission-levels-for-an-organization/)
+
+
+## Projects
+
+
+## Cosas interesantes
+### Git básico
+### Más en profundidad
+[ProGit ePub version, 2nd Edition](https://github.com/etl-it/git-etl/blob/master/progit-es.1091.epub?raw=true)
+
