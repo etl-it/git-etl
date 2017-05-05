@@ -59,10 +59,13 @@ Los permisos más interesantes son los de write y admin para colaboradores del r
 
 ## Projects
 Para los proyecto se utilizará el método [Kanban](https://es.wikipedia.org/wiki/Kanban_(desarrollo)). Se crearán los proyectos necesarios para lo que se esté desarrollando y un proyecto concreto con información sobre las ramas de desarrollo que se vayan creando. Por ejemplo, el Proyecto Ambari es un proyecto Big Data que despliega un sistema distribuido, por lo tanto cuenta con las [pizarras](https://github.com/RyuS3ki/ambari-etl/projects) (o proyectos) siguientes: servidor, cliente, servicios y branch info.
+Excepto el de info de ramas, los demás son de organización, así que dentro organizaremos las tarjetas en To Do, Doing, Done.
+A veces se va desarrollando y no se piensa en la organización; esto ocurre cuando son proyectos pequeños, no tenemos mucha idea de como va a ir la cosa hasta que nos ponemos, trabajamos solos, etc. En ese caso podría plantearse la situación de solo hacer un proyecto de información, pero es imprescindible en cualquiera de los casos que se mantenga actualizado dicho proyecto para tener al día al resto de ETLs.
 
 ## Cosas interesantes
 ### Git básico
 [Manual ETL](https://docs.google.com/a/uc3m.es/document/d/1AymDs7Jm28_VOf0QsCYPWyv69oOD8kFmtP0JYTx9FNw/edit?usp=sharing) (Solo con correo UC3M)
+
 [Git Cheatsheet](https://www.git-tower.com/blog/content/posts/54-git-cheat-sheet/git-cheat-sheet-large01.png)
 
 ### Más en profundidad
